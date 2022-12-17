@@ -749,8 +749,8 @@ def crack(idf,pwv):
   global loop,ok,cp
   bi = random.choice(['\33[m'])
   pers = loop*100/len(id2)
-  fff = '%'
-  sys.stdout.write('\r%s •• %s»%s •• OK:%s •• CP:%s •• %s%s%s'(bi,loop,len(id2),ok,cp,int(pers),str(fff),x));sys.stdout.flush()
+  fff = '🕠'
+  sys.stdout.write('\r%s •• %s»%s •• OK:%s •• CP:%s •• %s%s%s'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x));sys.stdout.flush()
   ua = random.choice(['Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/7.4 Chrome/59.0.3071.125 Mobile Safari/537.36',
 'Mozilla/5.0 (Linux; U; Android 10;  en-us; GT-R70Z) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.4848.113 Mobile Safari/537.36',
 'Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-P610) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/13.0 Chrome/83.0.4103.106 Safari/537.36',
