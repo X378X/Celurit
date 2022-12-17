@@ -185,7 +185,7 @@ def login_lagi334():
     url = requests.get('https://web.facebook.com/adsmanager?_rdc=1&_rdr', headers = headers)
     cari = re.findall('act=(.*?)&nav_source', url.text)
     if len(cari) == 0:
-        print (f'Cookie tidak valid')
+        print (f'Cookies Kadaluarsa')
         exit()
     else:
         for xenz in cari:
