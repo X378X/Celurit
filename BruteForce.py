@@ -55,7 +55,7 @@ for xd in range(10000):
   c=random.randrange(1, 9)
   d='MI 4LTE'
   e=random.randrange(100, 9999)
-  f='AppleWebKit/537.36 (KHTML, like Gecko) UCBrowser/'
+  f='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 UCBrowser/'
   g=random.randrange(1, 9)
   h=random.randrange(1, 4)
   i=random.randrange(1, 4)
