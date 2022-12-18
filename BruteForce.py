@@ -50,12 +50,12 @@ def jalan(z):
     time.sleep(0.03)
 
 for xd in range(10000):
-  a='Mozilla/5.0 (SymbianOS/9.4; Series60/5.0; Android/'
+  a='Mozilla/5.0 (Symbian/3; Series60/'
   b=random.randrange(1, 9)
   c=random.randrange(1, 9)
-  d='MI 4LTE'
+  d='Nokia'
   e=random.randrange(100, 9999)
-  f='AppleWebKit/537.36 (KHTML, like Gecko) UCBrowser/'
+  f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
   g=random.randrange(1, 9)
   h=random.randrange(1, 4)
   i=random.randrange(1, 4)
