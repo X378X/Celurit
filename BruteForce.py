@@ -60,7 +60,7 @@ for xd in range(10000):
   h=random.randrange(1, 4)
   i=random.randrange(1, 4)
   j=random.randrange(1, 4)
-  k='Mobile Safari/534.30'
+  k='Mobile Safari/535.1'
   uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
   ugen2.append(uaku)
 
